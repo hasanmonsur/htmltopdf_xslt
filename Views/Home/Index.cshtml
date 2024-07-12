@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model dynamic
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home Page</title>
+</head>
+<body>
+    <div><h2>Home Page</h2></div>
+    <div>@Html.Raw(ViewBag.TransformedXml)</div>
+
+    <div>
+
+        <h1>Generate PDF Report</h1>
+        <form action="/Home/GeneratePdf" method="post">
+            <button type="submit">Generate PDF</button>
+        </form>
+    </div>
+</body>
+</html>

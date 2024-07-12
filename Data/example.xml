@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<greetings>
+	<greeting>Hello, world!</greeting>
+	<greeting>Welcome to ASP.NET Core!</greeting>
+</greetings>
